@@ -1,7 +1,13 @@
 # Livraria para programadores
 -------------------------------------------------
-**Projeto acadêmico de uma aplicação em java para gerencia uma livraria**
 
+ 
+### Sobre o projeto
+
+Esta aplicação tem como finalidade cadastrar livros de uma livraria que tem como seu publico alvo programadores. Esta aplicação tem uma tela inicial onde o usuário pode ver todos os livros da livraria cadastrados na biblioteca. Se o usuário tiver acesso ele poderá fazer login na loja e cadastrar os livros e seus autores, editar e excluir.  
+
+ 
+ 
  
 **SQL**: sql para a criação do banco de dados da aplicação: 
 ```
