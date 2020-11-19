@@ -10,31 +10,35 @@ Esta aplicação tem como finalidade cadastrar livros de uma livraria que tem co
  
  
 **SQL**: sql para a criação do banco de dados da aplicação: 
+
+
 ```
-create database livraria;
+ create database livraria
+default char set utf8
+default collate utf8_general_ci;
 
 use livraria;
 
-create table livro(
-   id int primary key unique,
-   escritor int,
-   nome_do_livro char(30),
-   publicacao date,
-   Quantidade_em_estoque int
-   
-   
-   
+create table livros(
+        ID integer primary key auto_increment,
+	    nome varchar(40),
+	    autor varchar(40),
+	    descricao text,
+        Valor varchar(40)
+
+);
+create table autor(
+ID integer primary key auto_increment,
+nome varchar(40),
+nacimento varchar(40),
+    descricao text
+
 );
 
-create table escritor(
-
-id  int primary key unique,
-nome char(30),
-data_de_nacimento date,
-sobre_o_altor char(30)
-)
-
+ select * from autor;
 
 
 
 ```
+**Senha para acesar**: nome = DEV senha = 12345 
+
